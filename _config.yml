@@ -11,8 +11,8 @@
 #    |  |  \   --. /  .'.  \  |  |
 #    `--'   `----''--'   '--' `--'
 
-## => Github pages 
-theme: jekyll-text-theme
+# ## => Github pages 
+# theme: jekyll-text-theme
 
 ## => Site Settings
 ##############################
