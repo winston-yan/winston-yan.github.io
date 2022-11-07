@@ -11,16 +11,13 @@
 #    |  |  \   --. /  .'.  \  |  |
 #    `--'   `----''--'   '--' `--'
 
-# ## => Github pages 
-# theme: jekyll-text-theme
-
 ## => Site Settings
 ##############################
 text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://winston-yan.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : Winnies' Town
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
@@ -28,7 +25,7 @@ description: > # this means to ignore newlines until "Language & timezone"
 ## => Language and Timezone
 ##############################
 lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: Asia/Singapore # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
@@ -196,14 +193,29 @@ exclude:
   - package-lock.json
   - package.json
   - /docs
+  - /docs/_posts
+  - /docs/landing.html
   - /node_modules
   - /screenshots
   - /test
   - /vendor
+    
+collections:
+  docs:
+    output: true
+  posts:
+    output: true
 
 defaults:
+  ## home
   - scope:
       path: ""
+    values:
+      articles:
+        excerpt_type: html
+  ## posts
+  - scope:
+      path: "_posts"
       type: posts
     values:
       layout: article
@@ -214,6 +226,35 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+  ## docs
+  - scope:
+      path: "_docs/en"
+    values:
+      layout: article
+      nav_key: docs
+      sidebar:
+        nav: docs-en
+      license: true
+      aside:
+        toc: true
+      lang: en
+      show_edit_on_github: true
+      show_date: false
+      # lightbox: true
+  - scope:
+      path: "_docs/zh"
+    values:
+      layout: article
+      nav_key: docs
+      sidebar:
+        nav: docs-zh
+      license: true
+      aside:
+        toc: true
+      lang: zh
+      show_edit_on_github: true
+      show_date: false
+      # lightbox: true
 
 
 ## => Plugins
