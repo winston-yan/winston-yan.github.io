@@ -4,7 +4,7 @@ header:
   - title:  Archive
     url:    /archive.html
   - title:  Notes
-    url:    /docs/zh/quick-start
+    url:    /docs/cpp/c-lang-basic
     key:    docs
   - title:  About
     url:    /about.html
@@ -64,21 +64,19 @@ docs-en:
         url:    /docs/en/hero
       - title:  Swiper
         url:    /docs/en/swiper
-  - title:      Languages
+  - title:      Other Modules
     children:
-      - title:  中文
-        url:    /docs/zh/quick-start
+      - title:  C++
+        url:    /docs/cpp/c-lang-basic
 
-docs-zh:
-  - title:      开始
+docs-cpp:
+  - title:      C/C++
     children:
-      - title:  快速开始
-        url:    /docs/zh/quick-start
-      - title:  C语言程序设计
-        url:    /docs/zh/c
-  - title:      其他语言
+      - title:  C 语言程序设计
+        url:    /docs/cpp/c-lang-basic
+  - title:      Other Modules
     children:
-      - title:  English
+      - title:  Default Entry
         url:    /docs/en/quick-start
 
 # docs-zh:

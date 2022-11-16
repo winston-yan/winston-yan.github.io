@@ -241,12 +241,12 @@ defaults:
       show_date: false
       lightbox: true
   - scope:
-      path: "_docs/zh"
+      path: "_docs/C++"
     values:
       layout: article
       nav_key: docs
       sidebar:
-        nav: docs-zh
+        nav: docs-cpp
       license: true
       aside:
         toc: true
