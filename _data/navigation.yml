@@ -1,15 +1,15 @@
 header:
-  - title:      Home
-    url:        /
-  - title:      Notes
-    url:        /docs/zh/quick-start
-    key:        docs
-  - title:      Blogs
-    url: /archive.html
-  - title:      About
-    url: /about.html
-  - title:      GitHub
-    url:        https://github.com/winston-yan
+  - title:  Home
+    url:    /
+  - title:  Archive
+    url:    /archive.html
+  - title:  Notes
+    url:    /docs/zh/quick-start
+    key:    docs
+  - title:  About
+    url:    /about.html
+  - title:  GitHub
+    url:    https://github.com/winston-yan
 
 docs-en:
   - title:      Start
