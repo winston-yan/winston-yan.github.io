@@ -238,7 +238,7 @@ defaults:
         toc: true
       lang: en
       show_edit_on_github: true
-      show_date: false
+      show_date: true
       lightbox: true
   - scope:
       path: "_docs/C++"
@@ -252,7 +252,7 @@ defaults:
         toc: true
       lang: zh
       show_edit_on_github: true
-      show_date: false
+      show_date: true
       lightbox: true
 
 
