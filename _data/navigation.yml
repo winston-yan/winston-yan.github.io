@@ -4,12 +4,60 @@ header:
   - title:  Archive
     url:    /archive.html
   - title:  Notes
-    url:    /docs/cpp/c-lang-basic
+    url:    /docs/cpp/welcome
     key:    docs
   - title:  About
     url:    /about.html
   - title:  GitHub
     url:    https://github.com/winston-yan
+
+docs-cpp:
+  - title:      C/C++ Basics
+    children:
+      - title:  Hello, World!
+        url:    /docs/cpp/welcome
+      - title:  C 语言程序设计
+        url:    /docs/cpp/c-basic
+  - title:      Other Modules
+    children:
+      - title:  CS110L Safety in Systems Programming
+        url:    /docs/cs110l/welcome
+      - title:  CS5424 Distributed Databases
+        url:    /docs/cs5424/welcome
+      - title:  Theme Settings
+        url:    /docs/en/quick-start
+        
+docs-cs110l:
+  - title:      CS110L
+    children:
+      - title:  Welcome
+        url:    /docs/cs110l/welcome
+      - title:  Introduction
+        url:    /docs/cs110l/intro
+  - title:      Other Modules
+    children:
+      - title:  C/C++ Basics
+        url:    /docs/cpp/welcome
+      - title:  CS5424 Distributed Databases
+        url:    /docs/cs5424/welcome
+      - title:  Theme Settings
+        url:    /docs/en/quick-start
+
+docs-cs5424:
+  - title:      CS5424
+    children:
+      - title:  Welcome
+        url:    /docs/cs5424/welcome
+      # - title:  Introduction
+      #   url:    /docs/cs5424/intro
+  - title:      Other Modules
+    children:
+      - title:  C/C++ Basics
+        url:    /docs/cpp/welcome
+      - title:  CS110L Safety in Systems Programming
+        url:    /docs/cs110l/welcome
+      - title:  Theme Settings
+        url:    /docs/en/quick-start
 
 docs-en:
   - title:      Start
@@ -66,18 +114,12 @@ docs-en:
         url:    /docs/en/swiper
   - title:      Other Modules
     children:
-      - title:  C++
-        url:    /docs/cpp/c-lang-basic
-
-docs-cpp:
-  - title:      C/C++
-    children:
-      - title:  C 语言程序设计
-        url:    /docs/cpp/c-lang-basic
-  - title:      Other Modules
-    children:
-      - title:  Default Entry
-        url:    /docs/en/quick-start
+      - title:  C/C++ Basics
+        url:    /docs/cpp/welcome
+      - title:  CS110L Safety in Systems Programming
+        url:    /docs/cs110l/welcome
+      - title:  CS5424 Distributed Databases
+        url:    /docs/cs5424/welcome
 
 # docs-zh:
 #   - title:      开始

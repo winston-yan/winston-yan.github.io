@@ -1,7 +1,7 @@
 ---
 title: C语言程序设计
-permalink: /docs/cpp/c-lang-basic
-key: cpp-c-lang-basic
+permalink: /docs/cpp/c-basic
+key: cpp-c-basic
 ---
 
 
@@ -30,8 +30,6 @@ scanf("hello");
 ```
 
 此时返回值为0，因此**scanf**返回值为0合法
-
-
 
 循环读入
 
@@ -623,7 +621,7 @@ Set **r = gcd(a, b)**
 
 then, **a = x * r**, **b = y * r**, and **gcd(x, y) = 1**
 
-1. To prove **r** is common divisor of **b** and **a % b**
+1. To prove **r** is the common divisor of **b** and **a % b**
 
    **a % b = a - k * b** (k = a / b)
 

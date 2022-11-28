@@ -240,8 +240,9 @@ defaults:
       show_edit_on_github: true
       show_date: true
       lightbox: true
+  
   - scope:
-      path: "_docs/C++"
+      path: "_docs/cpp"
     values:
       layout: article
       nav_key: docs
@@ -251,6 +252,36 @@ defaults:
       aside:
         toc: true
       lang: zh
+      show_edit_on_github: true
+      show_date: true
+      lightbox: true
+
+  - scope:
+      path: "_docs/cs110l"
+    values:
+      layout: article
+      nav_key: docs
+      sidebar:
+        nav: docs-cs110l
+      license: true
+      aside:
+        toc: true
+      lang: en
+      show_edit_on_github: true
+      show_date: true
+      lightbox: true
+      
+  - scope:
+      path: "_docs/cs5424"
+    values:
+      layout: article
+      nav_key: docs
+      sidebar:
+        nav: docs-cs5424
+      license: true
+      aside:
+        toc: true
+      lang: en
       show_edit_on_github: true
       show_date: true
       lightbox: true
