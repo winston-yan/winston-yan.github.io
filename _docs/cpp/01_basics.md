@@ -556,7 +556,7 @@ int main() {
 
 ### 4.3 函数指针
 
-![](..\assets\PE-45.png)
+![](assets\PE-45.png)
 
 ```c
 /* Filename: PrjEuler/045.c */
