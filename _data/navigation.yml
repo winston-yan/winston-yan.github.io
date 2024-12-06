@@ -6,8 +6,8 @@ header:
   - title:  Notes
     url:    /docs/cpp/welcome
     key:    docs
-  - title:  About
-    url:    /about.html
+  - title:  Calendar
+    url:    /calendar.html
   - title:  GitHub
     url:    https://github.com/winston-yan
 

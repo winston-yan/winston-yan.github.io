@@ -17,7 +17,7 @@ text_skin: chocolate # "default" (default), "dark", "forest", "ocean", "chocolat
 highlight_theme: tomorrow-night-eighties # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://winston-yan.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Winnies' Town
+title   : Winnies' Jar
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
@@ -32,7 +32,7 @@ timezone: Asia/Singapore # see https://en.wikipedia.org/wiki/List_of_tz_database
 ##############################
 author:
   type      : person # "person" (default), "organization"
-  name      : Yan Xiaowei
+  name      : Winston
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : PLACEHOLDER FOR YAN
